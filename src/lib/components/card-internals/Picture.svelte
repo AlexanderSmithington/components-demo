@@ -1,8 +1,8 @@
 <script>
-    import billm from '$lib/assets/images/groundhog-day.webp';
+    let { person } = $props();
 </script>
 
-<img src="{billm}" alt="Phil Connors">
+<img src="{person.image}" alt="{person.fullName}">
 
 <style>
     img {

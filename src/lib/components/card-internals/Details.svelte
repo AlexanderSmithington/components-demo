@@ -1,8 +1,11 @@
 <script>
+  import Picture from "./Picture.svelte";
+
     let { person = {
         fullName: "Default Person",
         favSong: "Default Song",
-        petName: "Default Phil"
+        petName: "Default Phil",
+        image: "",
     }
     } = $props();
 </script>
